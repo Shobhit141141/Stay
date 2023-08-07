@@ -10,7 +10,7 @@ font-family: 'Press Start 2P', cursive;*/
 
 
 
-
+@keyframe(max-width:700px){
 *{
     margin: 0;
     padding: 0;
@@ -469,6 +469,7 @@ body.open{
 .foot2 p,.ends p{
     font-family:'poppins', serif;
     font-size:15px;
+}
 }
 @media(min-width:767px) and (min-height:1023px){
     .footer{
