@@ -56,7 +56,7 @@ function validateform(event){
 }
 function passcheck(){
     
-    if(passwordd.value.length==0 || !passwordd.match(/^.{8,}$/;)){
+    if(passwordd.value.length==0 || !passwordd.match(/^.{8,}$/)){
         passwordd.style.borderBottomColor="red";
         return false;
     }
