@@ -64,6 +64,6 @@ var namec = document.getElementById("namecheck");
          passwordd.style.borderBottomColor="red"; 
          return false; 
      }
-     passwordd.style.borderBottomColor="#39e75f"; 
+     passwordd.style.borderBottomColor="#00c04b"; 
      return true; 
  }
