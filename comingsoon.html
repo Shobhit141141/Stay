@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="stay.css">
+    <style>
+        .img{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            padding:10px;
+        }
+        img{
+            border-radius:10px;
+            
+        }
+        .loading{
+            width:100%;
+            height:auto;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-top:30px;
+        }
+        #line{
+            padding:2px;
+            width:60%;
+            height:10px;
+            border:2px solid black;
+            border-radius:6px;
+            overflow:hidden;
+            
+        }
+        #line div{
+            
+            height:10px;
+            border-radius:3px;
+            background-color:red;
+            animation:animate 1s infinite linear;
+        }
+        @keyframes animate{
+            0%{
+                width:0%;
+            }
+            
+            100%{
+                width:99%;
+            }
+        }
+        #line.open{
+            padding:2px;
+            width:60%;
+            height:10px;
+            border:2px solid white;
+            border-radius:6px;
+            overflow:hidden;
+        }
+        
+    </style>
+    <script src="https://kit.fontawesome.com/76343226ef.js" crossorigin="anonymous"></script>
+    <title> STAY | coming soon</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <div class="upper">
+                <div id="toggle">
+                    <div id="ball">   
+                    </div>                
+                </div>
+                <input type="checkbox" id="but">
+            </div>
+               
+            <div class="logo">
+                <a href="index.html"><img src="logo.png"></a>
+            </div>
+            
+            
+            
+            <div class="iconss">
+                <i class="fa-solid fa-user" style="transform:scale(1.05);" onclick="popup()"></i>
+                <a href="tel:9958960178"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    
+    <div id="c2">
+        <div class="signup">
+                <i class="fas fa-xmark" id="close"></i>
+                <div class="signup-header"><img src="signup.jpeg" alt="">
+                </div>
+                <div class="inputs">
+                <div class="username"><p>Username</p>
+                <input type="text" name="Username" id="username" onkeyup="validatename()">
+                <span id="namecheck"></span>
+                </div>
+                <div class="email"><p>Email</p>
+                <input type="email" name="Email" id="mail" onkeyup="validatemail()">
+                <span id="emailcheck"></span>
+                </div>
+                <div class="password"><p>Password</p>
+                <input type="password" name="password" id="password" onkeyup="passcheck()" >
+                <span id="passwordcheck" onclick="pass()"><i class="fa-solid fa-eye" style="color:black;" id="passwordeye" ></i></span>
+                </div>
+                <a href="comingsoon.html"><button id="signupbtn" onclick="validateform(event)" >Sign Up</button></a></div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="img">
+        <img src="coming.jpeg" alt=""></img>
+        <div class="loading">
+            <div id="line">
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="nav">
+        <div id="icons2">
+            <i class="fa-solid fa-home" id="home"></i>
+            <i class="fa-solid fa-suitcase-rolling"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-user" onclick="popup()"></i>
+            <i class="fa-solid fa-location-arrow"></i>
+        </div>
+    </div>
+    
+    
+        <div class="map">
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.google.com/maps/dir/&ved=2ahUKEwjB2YCkteGBAxX-SWwGHSuQBL4QjBB6BAgGEAM&usg=AOvVaw2jaG3McAkGIwixoqnz0jOJ"><i class="fa-solid fa-map"></i></a>
+            
+        </div>
+        
+    
+    
+    
+
+    <div class="follow">
+        <p>Follow us on</p>
+        <a href="https://www.linkedin.com/in/shobhitconnects"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/Shobhit8831"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:shobhit141141@gmail.com" ><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    
+    
+    <div class="footer">
+                <div class="foot1">
+                    <p> Support </p>
+                    <a href="comingsoon.html"><li>Help Centre</li>
+                    <li>Stay cover</li>
+                    <li>Cancellation</li>
+                    <li>Report</li>
+                    <li>Concerns</li></a>
+                </div>
+                <div class="foot1">
+                    <p> Community </p>
+                    <a href="comingsoon.html"><li>staygroup.org</li>
+                    <li>Stay visions</li></a>
+                    
+                </div>
+                <div class="foot1">
+                    <p> Stay</p>
+                    <a href="comingsoon.html"><li>Newsletter</li>
+                    <li>Gold subscription</li>
+                    <li>Careers</li>
+                    <li>Employees</li>
+                    <li>Investors</li></a>
+                </div>
+                <span class="foot2">
+                    <div class="ends">
+                        <i class="fa-solid fa-globe"></i>
+                    <p>English</p>
+                    </div>
+                    <a href="comingsoon.html">
+                        <p>Privacy • Terms • Conditions</p>
+                        <p>© stay.co.in</p>
+                    </a>
+                    
+                </span>
+                
+                
+            </div>
+    <div class="extra-gap"></div>
+    <script src="stay.js"></script>
+    <script src="search.js"></script>
+    <script src="validate.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

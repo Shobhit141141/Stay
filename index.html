@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stay.css">
+    <script src="https://kit.fontawesome.com/76343226ef.js" crossorigin="anonymous"></script>
+    <title>STAY</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <div class="upper">
+                <div id="toggle">
+                    <div id="ball">   
+                    </div>                
+                </div>
+                <input type="checkbox" id="but">
+            </div>
+               
+            <div class="logo">
+                <a href="index.html"><img src="logo.png"></a>
+            </div>
+            
+            
+            
+            <div class="iconss">
+                <i class="fa-solid fa-user" style="transform:scale(1.05);" onclick="popup()"></i>
+                <a href="tel:9958960178"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    <div id="c2">
+        <div class="signup">
+                <i class="fas fa-xmark" id="close"></i>
+                <div class="signup-header"><img src="signup.jpeg" alt="">
+                </div>
+                <div class="inputs">
+                <div class="username"><p>Username</p>
+                <input type="text" name="Username" id="username" onkeyup="validatename()">
+                <span id="namecheck"></span>
+                </div>
+                <div class="email"><p>Email</p>
+                <input type="email" name="Email" id="mail" onkeyup="validatemail()">
+                <span id="emailcheck"></span>
+                </div>
+                <div class="password"><p>Password</p>
+                <input type="password" name="password" id="password" onkeyup="passcheck()" >
+                <span id="passwordcheck" onclick="pass()"><i class="fa-solid fa-eye" style="color:black;" id="passwordeye" ></i></span>
+                </div>
+                <a href="comingsoon.html"><button id="signupbtn" onclick="validateform(event)" >Sign Up</button></a></div>
+        </div>
+    </div>
+    
+    <span class="details">
+        <p> Find Hotel at best prices </p>
+        <div class="city">
+            <input type="text" id="input" placeholder="your city" required>
+            <ul class="list">
+               
+            </ul>
+        </div>
+        <div class="time">
+            <div class="checkin">
+                <input type="time" placeholder="checkin">
+            </div>
+            <div class="checkout">
+                <input type="time" placeholder="checkout">
+            </div>
+        </div>
+        <a href="#"><button onclick="popup()">Search</button></a>
+    </span>
+    
+    
+    <h2 class="heading">
+        Explore your favourite destination
+
+
+    </h2>
+    <div class="slider">
+        <a href="comingsoon.html">
+        <div class="icons">
+            <div class="icon">
+              <img src="Bangalore.jpeg" alt="Icon 1">
+              <p>Bangalore</p>
+         </div>
+            <div class="icon">
+              <img src="Delhi.jpeg" alt="Icon 2">
+              <p>Delhi</p>
+         </div>
+              
+            <div class="icon">
+              <img src="Mumbai.jpeg" alt="Icon 3">
+              <p>Mumbai</p>
+         </div>
+          <div class="icon">
+              <img src="Chennai.jpg" alt="Icon 4">
+              <p>Chennai</p>
+          </div>
+          <div class="icon">
+              <img src="Jaipur.jpeg" alt="Icon 5">
+              <p>Jaipur</p>
+           
+           </div>
+          <div class="icon">
+              <img src="Kolkata.jpeg" alt="Icon 6">
+              <p>Kolkata</p>
+          </div>
+          <div class="icon">
+              <img src="Sikkim.jpeg" alt="Icon 7">
+              <p>Sikkim</p>
+           </div>
+          <div class="icon">
+              <img src="Shimla.jpeg" alt="Icon 8">
+              <p>Shimla</p>
+          </div>
+          <div class="icon">
+              <img src="Hyderabad.jpeg" alt="Icon 9">
+              <p>Hyderabad</p>
+          </div>
+               <div class="icon">
+              <img src="Indore.jpeg" alt="Icon 10">
+              <p>Indore</p>
+          </div>
+       </div></a>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="nav">
+        <div id="icons2">
+            <i class="fa-solid fa-home" id="home"></i>
+            <i class="fa-solid fa-suitcase-rolling"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-user" onclick="popup()"></i>
+            <i class="fa-solid fa-location-arrow"></i>
+        </div>
+    </div>
+    
+    
+        <div class="map">
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.google.com/maps/dir/&ved=2ahUKEwjB2YCkteGBAxX-SWwGHSuQBL4QjBB6BAgGEAM&usg=AOvVaw2jaG3McAkGIwixoqnz0jOJ"><i class="fa-solid fa-map"></i></a>
+            
+        </div>
+        
+    
+    <div class="trending">
+        <p> Trending on stay</p>
+    </div>
+<div class="trending-on-stay">
+    <div class="container2">
+        <div class="card">
+            <div class="front">
+                <img src="hotel1.jpeg" alt=""></img>
+                <h5>Raj Villa</h5>
+                <div class="stay">
+                    <p>Shimla</p>
+                    <p>$10/N</p>
+                </div>
+            </div>
+            <div class="back">
+                <h1>Pool | Buffet | AC</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                   
+                </div>
+                <p>has homero integer postulant sollicitudin vix euripidis felis noster minim massa detracto audire ludus inceptos</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="container2">
+        <div class="card">
+            <div class="front">
+                <img src="hotel2.jpeg" alt=""></img>
+                <h5>Square Hotel</h5>
+                <div class="stay">
+                    <p>Jaipur</p>
+                    <p>$15/N</p>
+                </div>
+            </div>
+            <div class="back">
+                <h1>Pool | Buffet | Golf</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                   
+                    
+                   
+                </div>
+                <p>has homero integer postulant sollicitudin vix euripidis felis noster minim massa detracto audire ludus inceptos</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container2">
+        <div class="card">
+            <div class="front">
+                <img src="hotel3.jpeg" alt=""></img>
+                <h5>Pacific Albergo</h5>
+                <div class="stay">
+                    <p>Delhi</p>
+                    <p>$30/N</p>
+                </div>
+            </div>
+            <div class="back">
+                <h1>Pool | Buffet | Golf | Gym</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                   
+                </div>
+                <p>has homero integer postulant sollicitudin vix euripidis felis noster minim massa detracto audire ludus inceptos</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="container2">
+        <div class="card">
+            <div class="front">
+                <img src="hotel4.jpeg" alt=""></img>
+                <h5>Taj</h5>
+                <div class="stay">
+                    <p>Mumbai</p>
+                    <p>$35/N</p>
+                </div>
+            </div>
+            <div class="back">
+                <h1>Pool | Buffet | AC</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                   
+                </div>
+                <p>has homero integer postulant sollicitudin vix euripidis felis noster minim massa detracto audire ludus inceptos</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+   <div class="container2">
+        <div class="card">
+            <div class="front">
+                <img src="hotel5.jpeg" alt=""></img>
+                <h5>Tirupati stays</h5>
+                <div class="stay">
+                    <p>Chennai</p>
+                    <p>$30/N</p>
+                </div>
+            </div>
+            <div class="back">
+                <h1>Pool | Buffet | Golf | Gym</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                   
+                </div>
+                <p>has homero integer postulant sollicitudin vix euripidis felis noster minim massa detracto audire ludus inceptos</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container2">
+        <div class="card">
+            <div class="front">
+                <img src="hotel6.jpeg" alt=""></img>
+                <h5>Petal Munnar</h5>
+                <div class="stay">
+                    <p>Kerala</p>
+                    <p>$40/N</p>
+                </div>
+            </div>
+            <div class="back">
+                <h1>Pool | Buffet | Golf | Gym</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                   
+                </div>
+                <p>has homero integer postulant sollicitudin vix euripidis felis noster minim massa detracto audire ludus inceptos</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+</div>
+    <div class="follow">
+        <p>Follow us on</p>
+        <a href="https://www.linkedin.com/in/shobhitconnects"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/Shobhit8831"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:shobhit141141@gmail.com" ><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    
+    
+    <div class="footer">
+                <div class="foot1">
+                    <p> Support </p>
+                    <a href="comingsoon.html"><li>Help Centre</li>
+                    <li>Stay cover</li>
+                    <li>Cancellation</li>
+                    <li>Report</li>
+                    <li>Concerns</li></a>
+                </div>
+                <div class="foot1">
+                    <p> Community </p>
+                    <a href="comingsoon.html"><li>staygroup.org</li>
+                    <li>Stay visions</li></a>
+                    
+                </div>
+                <div class="foot1">
+                    <p> Stay</p>
+                    <a href="comingsoon.html"><li>Newsletter</li>
+                    <li>Gold subscription</li>
+                    <li>Careers</li>
+                    <li>Employees</li>
+                    <li>Investors</li></a>
+                </div>
+                <span class="foot2">
+                    <div class="ends">
+                        <i class="fa-solid fa-globe"></i>
+                    <p>English</p>
+                    </div>
+                    <a href="comingsoon.html">
+                        <p>Privacy • Terms • Conditions</p>
+                        <p>© stay.co.in</p>
+                    </a>
+                    
+                </span>
+                
+                
+            </div>
+    <div class="extra-gap"></div>
+    <script src="stay.js"></script>
+    <script src="search.js"></script>
+    <script src="validate.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
